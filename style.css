@@ -37,7 +37,7 @@
     position: absolute;
     z-index: -1;
     width: 75vw;
-    height: 600vw;
+    height: 520vw;
     left: -41vw;
     top:-25vw ;
     background: black;
@@ -57,13 +57,23 @@
 
 .square2 {
     position: absolute;
-    z-index: -;
+    z-index: -1;
     width: 200vw;
-    height: 700vw;
+    height: 500vw;
     left: -250vw;
     top:-25vw ;
     background: black;
     /animation: s2Move 1800s forwards;
+}
+
+.square6 {
+    position: absolute;
+    z-index: -1;
+    width: 200vw;
+    height: 100vw;
+    left: -250vw;
+    top: 485vw;
+    background: black;
 }
 
 .title {
@@ -219,11 +229,11 @@
 }
 
 .square5 {
-    
     position: absolute;
     z-index: -1;
     width: 100vw;
     height: 50vw;
     background: black;
-    top: 722vw;
+    top: 632vw;
 }
+
