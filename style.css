@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.body {
+  height: 50vw;
+}
+
+.BG {
+    position: fixed;
+    overflow-x: hidden;
+    top: -35vw;
+}
+
+.rotate {
+     transform: rotate(-19.55deg);
+    height: 200vw;
+    top: -40vw;
+}
+
+.square1  {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 50vw;
+    left: 41vw;
+    top: -31vw;
+    background: black;
+    animation: s1Move 1800s forwards;
+}
+
+.square4  {
+    position: absolute;
+    z-index: -1;
+    width: 75vw;
+    height: 600vw;
+    left: -41vw;
+    top:-25vw ;
+    background: black;
+    
+}
+
+.square3  {
+    position: absolute;
+    z-index: -1;
+    width: 90vw;
+    height: 500vw;
+    top: 22vw;
+    left: 41vw;
+    background: black;
+    animation: s3Move 1800s forwards;
+}
+
+.square2 {
+    position: absolute;
+    z-index: -;
+    width: 200vw;
+    height: 700vw;
+    left: -250vw;
+    top:-25vw ;
+    background: black;
+    /animation: s2Move 1800s forwards;
+}
+
+.title {
+    z-index: -3;
+    height: 10vw;
+    width: 300vw;
+    top: 12.5vw;
+    left: 32.5vw;
+}
+
+.Title {
+    position: absolute;
+    z-index: -3;
+    color: black;
+    font-size: 10vw;
+    font-weight: 400;
+    left: 33vw;
+    top: 12.5vw;
+}
+
+@keyframes s1Move {
+    0%, .05%/*, .18%, .2%*/ { left: 37vw; top: -29.5vw; }
+    .09%/*, .17%, .19%, .21%*/ { left: 41vw; top: -31vw; }
+    .18%, .2%, .77%, .79% {top: -29.5vw;}
+    .17%, .19%, .21%, .76%, .78%, .8% { top: -31vw;}
+}
+
+@keyframes s2Move {
+    0%, .05%/*, .18%, .2%*/ { left: -162.5vw;}
+    .09%, .17%, .19%, .21% { left: -166vw;}
+}
+
+@keyframes s3Move {
+    0%, .05%/*, .18%, .2%*/ { left: 37vw; top: 20vw; }
+    .09%/*, .17%, .19%, .21%*/ { left: 41vw; top: 22vw;}
+    .18%, .2%, .77%, .79% {top: 20vw;}
+    .17%, .19%, .21%, .76%, .78%, .8% { top: 22vw;}
+}
+.menu {
+    z-index: 10;
+    position: absolute;
+    color: white;
+    height: 10vw;
+    width: 14vw;
+    top: 23.5vw;
+    left: 45vw;
+    background:;
+    cursor: pointer;
+}
+
+.menu li {
+    list-style: none;
+    font-size: 2.8vw;
+}
+
+.In {
+    z-index: 10;
+    position: absolute;
+    color: white;
+    height: 10vw;
+    width: 14vw;
+    top: 23.5vw;
+    left: 60vw;
+    background:;
+    font-size: 2.8vw;
+    cursor: pointer;
+}
+
+#nav-input:checked ~ #Menu {
+    position: absolute;
+    z-index: -1;
+    margin: 9vw;
+    width: 50w;
+    height: 50vw;
+    top: 22vw;
+    left: 41vw;
+    background: red;
+}
+
+#Menu {
+    position: absolute;
+    z-index: -1;
+    margin-top: 9vw;
+    margin-left: 2vw;
+    width: 50w;
+    height: 70vw;
+    top: 22vw;
+    left: 41vw;
+    background: white;
+}
+
+.eyeblow1 {
+    z-index: 11;
+    position: absolute;
+    background: black;
+    width: 90vw;
+    height: 4vw;
+    top: 22vw;
+    left: 41vw;
+    animation: e1move 1800s forwards;
+}
+
+.eyeblow2 {
+    z-index: 11;
+    position: absolute;
+    background: black;
+    width: 90vw;
+    height: 4vw;
+    bottom: 170.5vw;
+    left: 41vw;
+    animation: e2move 1800s forwards;
+}
+
+@keyframes e1move {
+    0%, .23%, .25%, .27% { height: 4vw;}
+    .24%, .26%, .28% { height: 0vw;}
+}
+
+@keyframes e2move {
+    0%, .23%, .25%, .27% { height: 4vw;}
+    .24%, .26%, .28% { height: 0vw;}
+}
+
+.f1 {
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    height: 300vw;
+    width: 200vw
+}
+.boss {
+    list-style: none;
+    position: absolute;
+    color: black;
+    top: 30vw;
+    left: 60vw;
+    font-size: 4vw;
+}
+
+.kanachan {
+    list-style: none;
+    position: absolute;
+    color: black;
+    top: 40vw;
+    left: 35vw;
+    font-size: 4vw;
+}
+
+.toru {
+    list-style: none;
+    position: absolute;
+    color: red;
+}
+
+.square5 {
+    
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 50vw;
+    background: black;
+    top: 722vw;
+}
