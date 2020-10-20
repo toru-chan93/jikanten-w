@@ -126,7 +126,7 @@
 
 .menu li {
     list-style: none;
-    font-size: 2.8vw;
+    font-size: 4vw;
 }
 
 .menuBtn {
@@ -161,7 +161,7 @@
     top: 23.5vw;
     left: 60vw;
     background:;
-    font-size: 2.8vw;
+    font-size: 4vw;
     cursor: pointer;
 }
 
@@ -169,9 +169,10 @@
     z-index: 11;
     position: absolute;
     background: black;
+    opacity: 1;
     width: 90vw;
     height: 4vw;
-    top: 22vw;
+    top: 23vw;
     left: 41vw;
     animation: e1move 1800s forwards;
 }
@@ -180,21 +181,22 @@
     z-index: 11;
     position: absolute;
     background: black;
+    opacity: 1;
     width: 90vw;
     height: 4vw;
-    bottom: 170.5vw;
+    bottom: 169.5vw;
     left: 41vw;
     animation: e2move 1800s forwards;
 }
 
 @keyframes e1move {
     0%, .23%, .25%, .27% { height: 4vw;}
-    .24%, .26%, .28% { height: 0vw;}
+    .24%, .26%, .28%, 100% { height: 0vw;}
 }
 
 @keyframes e2move {
     0%, .23%, .25%, .27% { height: 4vw;}
-    .24%, .26%, .28% { height: 0vw;}
+    .24%, .26%, .28%, 100% { height: 0vw;}
 }
 
 #eyeblow3 {
@@ -205,7 +207,7 @@
     top: 32vw;
     left: 41vw;
     background: black;
-    transition: .4s ease-in-out;
+    transition: .2s ease-in-out;
 }
 #eyeblow4 {
     position: absolute;
@@ -215,7 +217,7 @@
     bottom: 110vw;
     left: 41vw;
     background: black;
-    transition: .4s ease-in-out;
+    transition: .2s ease-in-out;
 }
 
 #nav-input:checked ~ #eyeblow3 {
@@ -306,6 +308,101 @@
     font-size: 2.6vw;
 }
 
+.xanachan {
+    position: absolute;
+    z-index: 5;
+    left: -163vw;
+    top: 430vw;
+    color: white;
+    font-size: 3.5vw;
+    transform: rotate(0deg);
+}
+
+.xoss {
+    position: absolute;
+    z-index: 5;
+    left: -116vw;
+    top: 450vw;
+    color: white;
+    font-size: 3.5vw;
+    transform: rotate(0deg);
+}
+
+.xurio {
+    position: absolute;
+    z-index: 5;
+    left: -85vw;
+    top: 380vw;
+    color: white;
+    font-size: 3.5vw;
+    transform: rotate(90deg);
+}
+
+.xoruchan {
+    position: absolute;
+    z-index: 5;
+    left: -100vw;
+    top: 250vw;
+    color: white;
+    font-size: 3.5vw;
+    transform: rotate(90deg);
+}
+
+.xeto {
+    position: absolute;
+    z-index: 5;
+    left: -80vw;
+    top: 190vw;
+    color: white;
+    font-size: 3.5vw;
+    transform: rotate(90deg);
+}
+
+.eyeblowKe1 {
+    position: absolute;
+    height: 5vw;
+    width: 17vw;
+    z-index: 6;
+    left: -84.5vw;
+    top: 190vw;
+    background: black;
+    transform: rotate(90deg);
+    animation: Ke1move 2s infinite;
+}
+
+.eyeblowKe2 {
+    position: absolute;
+    height: 5vw;
+    width: 17vw;
+    z-index: 6;
+    left: -79.5vw;
+    bottom: -135vw;
+    background: black;
+    transform: rotate(90deg);
+    animation: Ke2move 2s infinite;
+}
+
+@keyframes Ke2move {
+    0%, 20%, 90%, 100% {height: 5vw;}
+    50% {height: 0vw;}
+        
+}
+@keyframes Ke1move {
+    0%, 20%, 90%, 100% {height: 5vw;}
+    50% {height: 0vw;}
+
+}
+
+.xujikun {
+    position: absolute;
+    z-index: 5;
+    left: -25vw;
+    top: 200vw;
+    color: white;
+    font-size: 3.5vw;
+    transform: rotate(19.55deg);
+}
+
 .f1 {
     z-index: -1;
     position: fixed;
@@ -317,7 +414,7 @@
     list-style: none;
     position: absolute;
     color: black;
-    top: 30vw;
+    top: 15vw;
     left: 60vw;
     font-size: 4vw;
 }
@@ -331,10 +428,40 @@
     font-size: 4vw;
 }
 
-.toru {
+.toruchan {
     list-style: none;
     position: absolute;
-    color: red;
+    color: black;
+    top: 70vw;
+    left: 17.5vw;
+    font-size: 4vw;
+}
+
+.kurio {
+    list-style: none;
+    position: absolute;
+    color: black;
+    top: 80vw;
+    left: 60vw;
+    font-size: 4vw;
+}
+
+.keto {
+    list-style: none;
+    position: absolute;
+    color: black;
+    top: 114vw;
+    left: 5vw;
+    font-size: 4vw;
+}
+
+.fujikun {
+    list-style: none;
+    position: absolute;
+    color: black;
+    top: 114vw;
+    left: 78vw;
+    font-size: 4vw;
 }
 
 .square5 {
