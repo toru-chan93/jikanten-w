@@ -63,7 +63,7 @@
     left: -250vw;
     top:-25vw ;
     background: black;
-    animation: s2Move 1800s forwards;
+    /animation: s2Move 1800s forwards;
 }
 
 .square6 {
