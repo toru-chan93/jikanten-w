@@ -63,7 +63,7 @@
     left: -250vw;
     top:-25vw ;
     background: black;
-    /animation: s2Move 1800s forwards;
+    animation: s2Move 1800s forwards;
 }
 
 .square6 {
@@ -129,8 +129,31 @@
     font-size: 2.8vw;
 }
 
-.In {
+.menuBtn {
+    z-index: 12;
+    position: absolute;
+    cursor: pointer;
+    height: 5vw;
+    width: 10vw;
+    background: red;
+    opacity: 0;
+    top: 23.5vw;
+    left: 44vw;
+}
+
+.InBtn {
     z-index: 10;
+    position: absolute;
+    height: 5vw;
+    width: 13vw;
+    background: red;
+    opacity: 0;
+    top: 23.5vw;
+    left: 60vw;
+}
+
+.In {
+    z-index: 1;
     position: absolute;
     color: white;
     height: 10vw;
@@ -140,29 +163,6 @@
     background:;
     font-size: 2.8vw;
     cursor: pointer;
-}
-
-#nav-input:checked ~ #Menu {
-    position: absolute;
-    z-index: -1;
-    margin: 9vw;
-    width: 50w;
-    height: 50vw;
-    top: 22vw;
-    left: 41vw;
-    background: red;
-}
-
-#Menu {
-    position: absolute;
-    z-index: -1;
-    margin-top: 9vw;
-    margin-left: 2vw;
-    width: 50w;
-    height: 70vw;
-    top: 22vw;
-    left: 41vw;
-    background: white;
 }
 
 .eyeblow1 {
@@ -195,6 +195,115 @@
 @keyframes e2move {
     0%, .23%, .25%, .27% { height: 4vw;}
     .24%, .26%, .28% { height: 0vw;}
+}
+
+#eyeblow3 {
+    position: absolute;
+    z-index: 3;
+    height: 30vw;
+    width: 59.2vw;
+    top: 32vw;
+    left: 41vw;
+    background: black;
+    transition: .4s ease-in-out;
+}
+#eyeblow4 {
+    position: absolute;
+    z-index: 3;
+    height: 30vw;
+    width: 59.2vw;
+    bottom: 110vw;
+    left: 41vw;
+    background: black;
+    transition: .4s ease-in-out;
+}
+
+#nav-input:checked ~ #eyeblow3 {
+    height: 0vw;
+}
+
+#nav-input:checked ~ #eyeblow4 {
+    height: 0vw;
+}
+
+.goaisatu {
+    position: absolute;
+    height: 5vw;
+    width: 30vw;
+    top: 32vw;
+    left: 41vw;
+    font-size: 3vw;
+    color: white;
+    margin: 2vw;
+    background: black;
+}
+
+.paragraph {
+    z-index: 1;
+    position: absolute;
+    width: 59vw;
+    height: 60vw;
+    top: 38vw;
+    left: 41vw;
+    background: black;
+}
+
+.Gaiyo {
+    list-style: none;
+    margin: 2vw;
+    color: white;
+    font-size: 2.6vw;
+}
+
+.Kanachan {
+    cursor: pointer;
+    margin: 2vw;
+    color: white;
+    font-size: 2.6vw;
+}
+
+.Boss {
+    cursor: pointer;
+    margin: 2vw;
+    color: white;
+    font-size: 2.6vw;
+}
+
+.Kurio {
+    cursor: pointer;
+    margin: 2vw;
+    color: white;
+    font-size: 2.6vw;
+}
+
+.Toruchan {
+    position: absolute;
+    left:30vw;
+    top: 29vw;
+    cursor: pointer;
+    margin: 2vw;
+    color: white;
+    font-size: 2.6vw;
+}
+
+.Keto {
+    position: absolute;
+    left:30vw;
+    top: 35vw;
+    cursor: pointer;
+    margin: 2vw;
+    color: white;
+    font-size: 2.6vw;
+}
+
+.Fujikun {
+    position: absolute;
+    left:30vw;
+    top: 41vw;
+    cursor: pointer;
+    margin: 2vw;
+    color: white;
+    font-size: 2.6vw;
 }
 
 .f1 {
@@ -236,4 +345,5 @@
     background: black;
     top: 632vw;
 }
+
 
