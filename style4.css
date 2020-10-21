@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.body {
+    height: 50vw;
+}
+
+.BG {
+    position: fixed;
+    overflow-x: hidden;
+    top:5vw;
+}
+
+.rotate {
+    transform: rotate(odeg);
+    height: 200vw;
+    top: -40vw;
+}
+
+.square1  {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 50vw;
+    left: 20vw;
+    top: -31vw;
+    background: black;
+    animation: s1Move 1800s forwards;
+}
+
+.square4  {
+    position: absolute;
+    z-index: -1;
+    width: 75vw;
+    height: 550vw;
+    left: -60vw;
+    top:-25vw ;
+    background: black;
+
+}
+
+.square3  {
+    position: absolute;
+    z-index: -1;
+    width:100vw;
+    height: 502vw;
+    top: 22vw;
+    left: 20vw;
+    background: black;
+    animation: s3Move 1800s forwards;
+}
+
+.square2 {
+    position: absolute;
+    z-index: -1;
+    width: 200vw;
+    height: 500vw;
+    left: -250vw;
+    top:-25vw ;
+    background: black;
+    /animation: s2Move 1800s forwards;
+}
+
+.square6 {
+    position: absolute;
+    z-index: -1;
+    width: 200vw;
+    height: 100vw;
+    left: -250vw;
+    top: 485vw;
+    background: black;
+}
+
+.title {
+    z-index: -3;
+    height: 10vw;
+    width: 300vw;
+    top: 12.5vw;
+    left: 32.5vw;
+}
+
+.Title {
+    position: absolute;
+    z-index: -3;
+    color: black;
+    font-size: 10vw;
+    font-weight: 400;
+    left: 33vw;
+    top: 12.5vw;
+}
+
+iframe {
+    position: absolute;
+    z-index: 10;
+    left: 25vw;
+    top: 30.5vw;
+}
+
+.caption {
+    position: absolute;
+    z-index: 11;
+    width: 70vw;
+    height: 70vw;
+    left: 25vw;
+    top: 75.5vw;
+    background: black;
+}
+
+.Caption {
+    color: white;
+    font-size: 2.5vw;
+}
+
+.f1 {
+    z-index: -2;
+    position: fixed;
+    height: 100vw;
+    width: 100vw;
+    top: 9vw;
+    left: 22vw;
+    background: white;
+}
+
+.name {
+    font-size: 6.5vw;
+}
