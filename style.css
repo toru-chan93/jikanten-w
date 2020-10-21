@@ -152,6 +152,18 @@
     left: 60vw;
 }
 
+.InBtn1 {
+    z-index: 10;
+    position: absolute;
+    height: 5vw;
+    width: 13vw;
+    background: blue;
+    opacity: 0;
+    left: -61.7vw;
+    top: 288vw;
+    transform: rotate(90deg);
+}
+
 .In {
     z-index: 1;
     position: absolute;
@@ -396,20 +408,6 @@
     animation: Ke2move 2s infinite;
 }
 
-.ToB {
-    position: absolute;
-    cursor: pointer;
-    height:6vw;
-    width: 17vw;
-    z-index: 6;
-    left: -105vw;
-    bottom: -194vw;
-    background: red;
-    transform: rotate(90deg);
-    opacity: 1;
-    
-}
-
 .xeto {
     position: absolute;
     z-index: 5;
@@ -569,6 +567,7 @@
     background: black;
     top: 632vw;
 }
+
 
 
 
