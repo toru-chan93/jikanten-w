@@ -164,6 +164,17 @@
     transform: rotate(90deg);
 }
 
+.InBtn2 {
+    z-index: 10;
+    position: absolute;
+    height: 5vw;
+    width: 20vw;
+    background: blue;
+    opacity: 0;
+    left: -77.7vw;
+    top: 488vw;
+}
+
 .In {
     z-index: 1;
     position: absolute;
@@ -518,7 +529,7 @@
     list-style: none;
     position: absolute;
     color: black;
-    top: 40vw;
+    top: 33vw;
     left: 35vw;
     font-size: 4vw;
 }
@@ -527,7 +538,7 @@
     list-style: none;
     position: absolute;
     color: black;
-    top: 70vw;
+    top: 90vw;
     left: 17.5vw;
     font-size: 4vw;
 }
@@ -545,7 +556,7 @@
     list-style: none;
     position: absolute;
     color: black;
-    top: 114vw;
+    top: 124vw;
     left: 5vw;
     font-size: 4vw;
 }
@@ -557,6 +568,30 @@
     top: 114vw;
     left: 78vw;
     font-size: 4vw;
+}
+
+.ToImg {
+    list-style: none;
+    position: absolute;
+    top: 110vw;
+    left: -20.5vw;
+    width: 67vw;
+}
+
+.BoImg {
+    list-style: none;
+    position: absolute;
+    top: 22vw;
+    left: 57vw;
+    width: 116vw;
+}
+
+.KaImg {
+    list-style: none;
+    position: absolute;
+    top: 70vw;
+    left: -5vw;
+    width: 30vw;
 }
 
 .square5 {
