@@ -338,14 +338,76 @@
     transform: rotate(90deg);
 }
 
+.eyeblowKu1 {
+    position: absolute;
+    height: 5vw;
+    width: 19vw;
+    z-index: 6;
+    left: -83vw;
+    top: 379vw;
+    background: black;
+    transform: rotate(90deg);
+    animation: Ke1move 3s infinite;
+}
+
+.eyeblowKu2 {
+    position: absolute;
+    height: 5vw;
+    width: 19vw;
+    z-index: 6;
+    left: -88.09vw;
+    bottom: -324vw;
+    background: black;
+    transform: rotate(90deg);
+    animation: Ke2move 3s infinite;
+}
+
 .xoruchan {
     position: absolute;
     z-index: 5;
-    left: -100vw;
+    left: -101.7vw;
     top: 250vw;
     color: white;
     font-size: 3.5vw;
     transform: rotate(90deg);
+}
+
+.eyeblowTo1 {
+    position: absolute;
+    height: 5vw;
+    width: 17vw;
+    z-index: 6;
+    left: -102vw;
+    top: 252vw;
+    background: black;
+    transform: rotate(90deg);
+    animation: Ke1move 2s infinite;
+}
+
+.eyeblowTo2 {
+    position: absolute;
+    height: 5vw;
+    width: 17vw;
+    z-index: 6;
+    left: -107vw;
+    bottom: -194vw;
+    background: black;
+    transform: rotate(90deg);
+    animation: Ke2move 2s infinite;
+}
+
+.ToB {
+    position: absolute;
+    cursor: pointer;
+    height:6vw;
+    width: 17vw;
+    z-index: 6;
+    left: -105vw;
+    bottom: -194vw;
+    background: red;
+    transform: rotate(90deg);
+    opacity: 1;
+    
 }
 
 .xeto {
@@ -396,11 +458,46 @@
 .xujikun {
     position: absolute;
     z-index: 5;
-    left: -25vw;
+    left: -26.5vw;
     top: 200vw;
     color: white;
     font-size: 3.5vw;
     transform: rotate(19.55deg);
+}
+
+.eyeblowFu1 {
+    position: absolute;
+    height: 5vw;
+    width: 19vw;
+    z-index: 6;
+    left: -26.5vw;
+    top: 197.5vw;
+    background: black;
+    transform: rotate(19.55deg);
+    animation: Ke1move 1.5s infinite;
+}
+
+.eyeblowFu2 {
+    position: absolute;
+    height: 5vw;
+    width: 19vw;
+    z-index: 6;
+    left: -27.5vw;
+    bottom: -147vw;
+    background: black;
+    transform: rotate(19.55deg);
+    animation: Ke2move 1.5s infinite;
+}
+
+@keyframes Ke2move {
+    0%, 20%, 90%, 100% {height: 5vw;}
+    50% {height: 0vw;}
+
+}
+@keyframes Ke1move {
+    0%, 20%, 90%, 100% {height: 5vw;}
+    50% {height: 0vw;}
+
 }
 
 .f1 {
