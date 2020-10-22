@@ -22,6 +22,18 @@
     top: -40vw;
 }
 
+.aaa {
+    z-index: -30;
+    position: absolute;
+    color: white;
+    height: 10vw;
+    width: 54vw;
+    top: 23.5vw;
+    left: 45vw;
+    background:black;
+    cursor: pointer;
+}
+
 .square1  {
     position: absolute;
     z-index: -1;
@@ -174,6 +186,42 @@
     left: -77.7vw;
     top: 488vw;
 }
+
+.InBtn3 {
+    z-index: 10;
+    position: absolute;
+    height: 5vw;
+    width: 13vw;
+    background: blue;
+    opacity: 0;
+    left: -38.7vw;
+    top: 228vw;
+    transform: rotate(90deg);
+}
+
+.InBtn4 {
+    z-index: 10;
+    position: absolute;
+    height: 5vw;
+    width: 20vw;
+    background: blue;
+    opacity: 0;
+    left: -124.7vw;
+    top: 468vw;
+}
+
+.InBtn6 {
+    z-index: 10;
+    position: absolute;
+    height: 5vw;
+    width: 20vw;
+    background: blue;
+    opacity: 0;
+    left: 13.5vw;
+    top: 237vw;
+    transform: rotate(19.55deg);
+}
+
 
 .In {
     z-index: 1;
@@ -334,11 +382,35 @@
 .xanachan {
     position: absolute;
     z-index: 5;
-    left: -163vw;
+    left: -172vw;
     top: 430vw;
     color: white;
     font-size: 3.5vw;
     transform: rotate(0deg);
+}
+
+.eyeblowKa1 {
+    position: absolute;
+    height: 5vw;
+    width: 19vw;
+    z-index: 6;
+    left: -168.5vw;
+    top: 427.3vw;
+    background: black;
+    transform: rotate(0deg);
+    animation: Ke1move 2.3s infinite;
+}
+
+.eyeblowKa2 {
+    position: absolute;
+    height: 5vw;
+    width: 19vw;
+    z-index: 6;
+    left: -168.5vw;
+    bottom: -377vw;
+    background: black;
+    transform: rotate(0deg);
+    animation: Ke2move 2.3s infinite;
 }
 
 .xoss {
@@ -351,11 +423,35 @@
     transform: rotate(0deg);
 }
 
+.eyeblowBo1 {
+    position: absolute;
+    height: 5vw;
+    width: 19vw;
+    z-index: 6;
+    left: -112vw;
+    top: 447.3vw;
+    background: black;
+    transform: rotate(0deg);
+    animation: Ke1move 1.3s infinite;
+}
+
+.eyeblowBo2 {
+    position: absolute;
+    height: 5vw;
+    width: 19vw;
+    z-index: 6;
+    left: -112vw;
+    bottom: -397vw;
+    background: black;
+    transform: rotate(0deg);
+    animation: Ke2move 1.3s infinite;
+}
+
 .xurio {
     position: absolute;
     z-index: 5;
     left: -85vw;
-    top: 380vw;
+    top: 378vw;
     color: white;
     font-size: 3.5vw;
     transform: rotate(90deg);
@@ -366,8 +462,8 @@
     height: 5vw;
     width: 19vw;
     z-index: 6;
-    left: -83vw;
-    top: 379vw;
+    left: -82vw;
+    top: 382.7vw;
     background: black;
     transform: rotate(90deg);
     animation: Ke1move 3s infinite;
@@ -378,8 +474,8 @@
     height: 5vw;
     width: 19vw;
     z-index: 6;
-    left: -88.09vw;
-    bottom: -324vw;
+    left: -87.09vw;
+    bottom: -327.5vw;
     background: black;
     transform: rotate(90deg);
     animation: Ke2move 3s infinite;
@@ -388,7 +484,7 @@
 .xoruchan {
     position: absolute;
     z-index: 5;
-    left: -101.7vw;
+    left: -102.7vw;
     top: 250vw;
     color: white;
     font-size: 3.5vw;
@@ -400,8 +496,8 @@
     height: 5vw;
     width: 17vw;
     z-index: 6;
-    left: -102vw;
-    top: 252vw;
+    left: -101.9vw;
+    top: 255.5vw;
     background: black;
     transform: rotate(90deg);
     animation: Ke1move 2s infinite;
@@ -410,10 +506,10 @@
 .eyeblowTo2 {
     position: absolute;
     height: 5vw;
-    width: 17vw;
+    width: 17.2vw;
     z-index: 6;
     left: -107vw;
-    bottom: -194vw;
+    bottom: -200vw;
     background: black;
     transform: rotate(90deg);
     animation: Ke2move 2s infinite;
@@ -422,8 +518,8 @@
 .xeto {
     position: absolute;
     z-index: 5;
-    left: -80vw;
-    top: 190vw;
+    left: -82vw;
+    top: 193vw;
     color: white;
     font-size: 3.5vw;
     transform: rotate(90deg);
@@ -467,7 +563,7 @@
 .xujikun {
     position: absolute;
     z-index: 5;
-    left: -26.5vw;
+    left: -28.5vw;
     top: 200vw;
     color: white;
     font-size: 3.5vw;
@@ -479,7 +575,7 @@
     height: 5vw;
     width: 19vw;
     z-index: 6;
-    left: -26.5vw;
+    left: -29.5vw;
     top: 197.5vw;
     background: black;
     transform: rotate(19.55deg);
@@ -491,7 +587,7 @@
     height: 5vw;
     width: 19vw;
     z-index: 6;
-    left: -27.5vw;
+    left: -30.5vw;
     bottom: -147vw;
     background: black;
     transform: rotate(19.55deg);
@@ -570,39 +666,83 @@
     font-size: 4vw;
 }
 
+.KuImg {
+    list-style: none;
+    position: absolute;
+    top: 109vw;
+    left: 65vw;
+    width: 40vw;
+    transform: rotate(-19.55deg);
+}
+
 .ToImg {
     list-style: none;
     position: absolute;
-    top: 110vw;
-    left: -20.5vw;
-    width: 67vw;
+    top: 100vw;
+    left: -8.5vw;
+    width: 47vw;
+    transform: rotate(-19.55deg);
 }
 
 .BoImg {
     list-style: none;
     position: absolute;
     top: 22vw;
-    left: 57vw;
-    width: 116vw;
+    left: 33vw;
+    width: 55vw;
+    transform: rotate(-19.55deg);
 }
 
 .KaImg {
     list-style: none;
     position: absolute;
-    top: 70vw;
-    left: -5vw;
+    top: 50vw;
+    left: -10vw;
     width: 30vw;
+    transform: rotate(-19.55deg);
+}
+
+.KeImg {
+    list-style: none;
+    position: absolute;
+    top: 59vw;
+    left: 53vw;
+    width: 30vw;
+    transform: rotate(-19.55deg);
+}
+
+.FuImg1 {
+    list-style: none;
+    position: absolute;
+    top: 130vw;
+    left: -8.5vw;
+    width: 57vw;
+    transform: rotate(-19.55deg);
+}
+
+.FuImg2 {
+    list-style: none;
+    position: absolute;
+    top: 74vw;
+    left: 68vw;
+    width: 30vw;
+    transform: rotate(-19.55deg);
+}
+
+.FuImg3 {
+    list-style: none;
+    position: absolute;
+    top: 26vw;
+    left: -13.7vw;
+    width: 30vw;
+    transform: rotate(-19.55deg);
 }
 
 .square5 {
     position: absolute;
-    z-index: -1;
+    z-index: 1;
     width: 100vw;
     height: 50vw;
     background: black;
     top: 632vw;
 }
-
-
-
-
