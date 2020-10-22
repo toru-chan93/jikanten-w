@@ -37,7 +37,7 @@
     position: absolute;
     z-index: -1;
     width: 75vw;
-    height: 550vw;
+    height: 300vw;
     left: -60vw;
     top:-25vw ;
     background: black;
@@ -48,8 +48,19 @@
     position: absolute;
     z-index: -1;
     width:100vw;
-    height: 502vw;
+    height: 192vw;
     top: 22vw;
+    left: 20vw;
+    background: black;
+    animation: s3Move 1800s forwards;
+}
+
+.square5  {
+    position: absolute;
+    z-index: -1;
+    width:100vw;
+    height: 53vw;
+    top: 218vw;
     left: 20vw;
     background: black;
     animation: s3Move 1800s forwards;
@@ -77,21 +88,22 @@
 }
 
 .title {
-    z-index: -3;
+    z-index: 11;
     height: 10vw;
     width: 300vw;
-    top: 12.5vw;
+    top: 50.5vw;
     left: 32.5vw;
 }
 
 .Title {
     position: absolute;
-    z-index: -3;
+    z-index: 11;
     color: black;
-    font-size: 10vw;
+    font-size: 9vw;
     font-weight: 400;
-    left: 33vw;
-    top: 12.5vw;
+    left:-9vw;
+    top: 160.5vw;
+    transform: rotate(-90deg);
 }
 
 iframe {
@@ -116,16 +128,65 @@ iframe {
     font-size: 2.5vw;
 }
 
+.was {
+    position: absolute;
+    z-index: 11;
+    height: 5vw;
+    width: 30vw;
+    top: 212.5vw;
+    left: 20vw;
+    opacity: 0;
+    background: red;
+}
+
+
+.now {
+    position: absolute;
+    z-index: 11;
+    height: 5vw;
+    width: 14vw;
+    top: 212.5vw;
+    left: 55vw;
+    opacity: 0;
+    background: red;
+}
+
+.will {
+    position: absolute;
+    z-index: 11;
+    height: 5vw;
+    width: 23vw;
+    top: 212.5vw;
+    left: 77vw;
+    opacity: 0;
+    background: red;
+}
+
 .f1 {
     z-index: -2;
     position: fixed;
     height: 100vw;
     width: 100vw;
-    top: 9vw;
+    top: 6.2vw;
     left: 22vw;
     background: white;
 }
 
 .name {
     font-size: 6.5vw;
+}
+
+.f2 {
+    z-index: -2;
+    position: fixed;
+    height: 30vw;
+    width: 80vw;
+    top: 147.5vw;
+    left: 20vw;
+    background: white;
+}
+
+.nav {
+    text-align: center;
+    font-size: 4.3vw;
 }
