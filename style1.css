@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.body {
+    height: 50vw;
+}
+
+.BG {
+    position: fixed;
+    overflow-x: hidden;
+    top:5vw;
+}
+
+.rotate {
+    transform: rotate(odeg);
+    height: 200vw;
+    top: -40vw;
+}
+
+.square1  {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 50vw;
+    left: 20vw;
+    top: -31vw;
+    background: black;
+    animation: s1Move 1800s forwards;
+}
+
+.square4  {
+    position: absolute;
+    z-index: -1;
+    width: 75vw;
+    height: 1315vw;
+    left: -60vw;
+    top:-25vw ;
+    background: black;
+
+}
+
+.square3  {
+    position: absolute;
+    z-index: -1;
+    width:100vw;
+    height: 1202vw;
+    top: 22vw;
+    left: 20vw;
+    background: black;
+    animation: s3Move 1800s forwards;
+}
+
+.square2 {
+    position: absolute;
+    z-index: -1;
+    width: 200vw;
+    height: 500vw;
+    left: -250vw;
+    top:-25vw ;
+    background: black;
+    /animation: s2Move 1800s forwards;
+}
+
+.square6 {
+    position: absolute;
+    z-index: -1;
+    width: 200vw;
+    height: 100vw;
+    left: -250vw;
+    top: 485vw;
+    background: black;
+}
+
+.square5  {
+    position: absolute;
+    z-index: -1;
+    width:100vw;
+    height: 60vw;
+    top: 1230vw;
+    left: 20vw;
+    background: black;
+    animation: s3Move 1800s forwards;
+}
+
+.title {
+    z-index: 11;
+    height: 10vw;
+    width: 300vw;
+    top: 50.5vw;
+    left: 32.5vw;
+}
+
+.Title {
+    position: absolute;
+    z-index: 11;
+    color: black;
+    font-size: 9vw;
+    font-weight: 400;
+    left:-9vw;
+    top: 1148.5vw;
+    transform: rotate(-90deg);
+}
+.img1 {
+    position: absolute;
+    z-index: 10;
+    left: 29.8vw;
+    top: 30.5vw;
+    width: 60vw;
+    height: 84.2vw;
+}
+
+.img2 {
+    position: absolute;
+    z-index: 12;
+    left: 29.8vw;
+    top: 177vw;
+    width: 60vw;
+    height: 84.2vw;
+}
+
+.img3 {
+    position: absolute;
+    z-index: 12;
+    left: 29.8vw;
+    top: 266vw;
+    width: 60vw;
+    height: 84.2vw;
+}
+
+.img4 {
+    position: absolute;
+    z-index: 12;
+    left: 29.8vw;
+    top: 355vw;
+    width: 60vw;
+    height: 84.2vw;
+}
+
+.img5 {
+    position: absolute;
+    z-index: 12;
+    left: 29.8vw;
+    top: 444vw;
+    width: 60vw;
+    height: 84.2vw;
+}
+
+.img6 {
+    position: absolute;
+    z-index: 12;
+    left: 29.8vw;
+    top: 533vw;
+    width: 60vw;
+    height: 84.2vw;
+}
+
+.img7 {
+    position: absolute;
+    z-index: 12;
+    left: 29.8vw;
+    top: 622vw;
+    width: 60vw;
+    height: 84.2vw;
+}
+
+.img8 {
+    position: absolute;
+    z-index: 12;
+    left: 29.8vw;
+    top: 711vw;
+    width: 60vw;
+    height: 84.2vw;
+}
+
+.img9 {
+    position: absolute;
+    z-index: 12;
+    left: 29.8vw;
+    top: 800vw;
+    width: 60vw;
+    height: 84.2vw;
+}
+
+.img10 {
+    position: absolute;
+    z-index: 12;
+    left: 29.8vw;
+    top: 889vw;
+    width: 60vw;
+    height: 84.2vw;
+}
+
+.img11 {
+    position: absolute;
+    z-index: 12;
+    left: 29.8vw;
+    top: 978vw;
+    width: 60vw;
+    height: 84.2vw;
+}
+
+.img12 {
+    position: absolute;
+    z-index: 12;
+    left: 29.8vw;
+    top: 1067vw;
+    width: 60vw;
+    height: 84.2vw;
+}
+
+
+.caption {
+    position: absolute;
+    z-index: 11;
+    width: 70vw;
+    height: 70vw;
+    left: 25vw;
+    top: 125.5vw;
+    background: black;
+}
+
+.Caption {
+    color: white;
+    font-size: 2.5vw;
+}
+
+.was {
+    position: absolute;
+    z-index: 11;
+    height: 5vw;
+    width: 30vw;
+    top: 1224.5vw;
+    left: 20vw;
+    opacity: 0;
+    background: red;
+}
+
+
+.now {
+    position: absolute;
+    z-index: 11;
+    height: 5vw;
+    width: 14vw;
+    top: 1224.5vw;
+    left: 55vw;
+    opacity: 0;
+    background: red;
+}
+
+.will {
+    position: absolute;
+    z-index: 11;
+    height: 5vw;
+    width: 23vw;
+    top: 1224.5vw;
+    left: 77vw;
+    opacity: 0;
+    background: red;
+}
+
+.f1 {
+    z-index: -2;
+    position: fixed;
+    height: 100vw;
+    width: 100vw;
+    top: 6.5vw;
+    left: 22vw;
+    background: white;
+}
+
+.name {
+    font-size: 4.5vw;
+}
+
+.f2 {
+    z-index: -2;
+    position: fixed;
+    height: 30vw;
+    width: 80vw;
+    top: 147.5vw;
+    left: 20vw;
+    background: white;
+}
+
+.nav {
+    text-align: center;
+    font-size: 4.3vw;
+}
