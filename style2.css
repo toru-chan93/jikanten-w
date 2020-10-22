@@ -48,7 +48,7 @@
     position: absolute;
     z-index: -1;
     width:100vw;
-    height: 502vw;
+    height: 442vw;
     top: 22vw;
     left: 20vw;
     background: black;
@@ -76,22 +76,34 @@
     background: black;
 }
 
+.square5  {
+    position: absolute;
+    z-index: -1;
+    width:100vw;
+    height: 47vw;
+    top: 470vw;
+    left: 20vw;
+    background:black;
+    animation: s3Move 1800s forwards;
+}
+
 .title {
-    z-index: -3;
+    z-index: 11;
     height: 10vw;
     width: 300vw;
-    top: 12.5vw;
+    top: 50.5vw;
     left: 32.5vw;
 }
 
 .Title {
     position: absolute;
-    z-index: -3;
+    z-index: 11;
     color: black;
-    font-size: 10vw;
+    font-size: 9vw;
     font-weight: 400;
-    left: 53vw;
-    top: 20.5vw;
+    left:-9vw;
+    top: 410.5vw;
+    transform: rotate(-90deg);
 }
 
 iframe {
@@ -111,9 +123,97 @@ iframe {
     background: black;
 }
 
+.was {
+    position: absolute;
+    z-index: 11;
+    height: 5vw;
+    width: 30vw;
+    top: 464.5vw;
+    left: 20vw;
+    opacity: 0;
+    background: red;
+}
+
+
+.now {
+    position: absolute;
+    z-index: 11;
+    height: 5vw;
+    width: 14vw;
+    top: 464.5vw;
+    left: 55vw;
+    opacity: 0;
+    background: red;
+}
+
+.will {
+    position: absolute;
+    z-index: 11;
+    height: 5vw;
+    width: 23vw;
+    top: 464.5vw;
+    left: 77vw;
+    opacity: 0;
+    background: red;
+}
+
 .Caption {
     color: white;
     font-size: 2.5vw;
+}
+
+.img1 {
+    position: absolute;
+    z-index: 12;
+    left: 0vw;
+    top: 52vw;
+    width: 70vw;
+    height: 39.4vw;
+}
+
+.img2 {
+    position: absolute;
+    z-index: 12;
+    left: 0vw;
+    top: 97vw;
+    width: 70vw;
+    height: 39.4vw;
+}
+
+.img3 {
+    position: absolute;
+    z-index: 12;
+    left: 0vw;
+    top: 142vw;
+    width: 70vw;
+    height: 39.4vw;
+}
+
+.img4 {
+    position: absolute;
+    z-index: 12;
+    left: 0vw;
+    top: 187vw;
+    width: 70vw;
+    height: 39.4vw;
+}
+
+.img5 {
+    position: absolute;
+    z-index: 12;
+    left: 0vw;
+    top: 232vw;
+    width: 70vw;
+    height: 39.4vw;
+}
+
+.img6 {
+    position: absolute;
+    z-index: 12;
+    left: 0vw;
+    top: 277vw;
+    width: 70vw;
+    height: 39.4vw;
 }
 
 .f1 {
@@ -128,4 +228,19 @@ iframe {
 
 .name {
     font-size: 6.5vw;
+}
+
+.f2 {
+    z-index: -2;
+    position: fixed;
+    height: 30vw;
+    width: 80vw;
+    top: 152.5vw;
+    left: 20vw;
+    background: white;
+}
+
+.nav {
+    text-align: center;
+    font-size: 4.3vw;
 }
