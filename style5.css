@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.body {
+    height: 50vw;
+}
+
+.BG {
+    position: fixed;
+    overflow-x: hidden;
+    top:5vw;
+}
+
+.rotate {
+    transform: rotate(odeg);
+    height: 200vw;
+    top: -40vw;
+}
+
+.aaa {
+    z-index: 30;
+    position: absolute;
+    height: 10vw;
+    width: 14vw;
+    top: 23.5vw;
+    left: 45vw;
+    background:black;
+    cursor: pointer;
+}
+
+.square1  {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 50vw;
+    left: 20vw;
+    top: -31vw;
+    background: black;
+    animation: s1Move 1800s forwards;
+}
+
+.square4  {
+    position: absolute;
+    z-index: -1;
+    width: 75vw;
+    height: 550vw;
+    left: -60vw;
+    top:-25vw ;
+    background: black;
+
+}
+
+.square3  {
+    position: absolute;
+    z-index: -1;
+    width:100vw;
+    height: 452vw;
+    top: 22vw;
+    left: 20vw;
+    background: black;
+    animation: s3Move 1800s forwards;
+}
+
+.square2 {
+    position: absolute;
+    z-index: -1;
+    width: 200vw;
+    height: 500vw;
+    left: -250vw;
+    top:-25vw ;
+    background: black;
+    /animation: s2Move 1800s forwards;
+}
+
+.square5  {
+    position: absolute;
+    z-index: -1;
+    width:100vw;
+    height: 47vw;
+    top: 478vw;
+    left: 20vw;
+    background:black;
+    animation: s3Move 1800s forwards;
+}
+
+.square6 {
+    position: absolute;
+    z-index: -1;
+    width: 200vw;
+    height: 100vw;
+    left: -250vw;
+    top: 485vw;
+    background: black;
+}
+
+.title {
+    z-index: 11;
+    height: 10vw;
+    width: 300vw;
+    top: 50.5vw;
+    left: 32.5vw;
+}
+
+.Title {
+    position: absolute;
+    z-index: 11;
+    color: black;
+    font-size: 9vw;
+    font-weight: 400;
+    left:-9vw;
+    top: 420.5vw;
+    transform: rotate(-90deg);
+}
+
+iframe {
+    position: absolute;
+    z-index: 10;
+    left: 25vw;
+    top: 30.5vw;
+}
+
+.caption {
+    position: absolute;
+    z-index: 11;
+    width: 70vw;
+    height: 70vw;
+    left: 25vw;
+    top: 75.5vw;
+    background: black;
+}
+
+.Caption {
+    color: white;
+    font-size: 2.5vw;
+}
+
+.img1 {
+    position: absolute;
+    z-index: 12;
+    left: 25vw;
+    top: 107vw;
+    width: 70vw;
+    height: 39.4vw;
+}
+
+.img2 {
+    position: absolute;
+    z-index: 12;
+    left: 25vw;
+    top: 152vw;
+    width: 70vw;
+    height: 39.4vw;
+}
+
+.img3 {
+    position: absolute;
+    z-index: 12;
+    left: 25vw;
+    top: 197vw;
+    width: 70vw;
+    height: 39.4vw;
+}
+
+.img4 {
+    position: absolute;
+    z-index: 12;
+    left: 25vw;
+    top: 242vw;
+    width: 70vw;
+    height: 39.4vw;
+}
+
+.img5 {
+    position: absolute;
+    z-index: 12;
+    left: 25vw;
+    top: 289vw;
+    width: 70vw;
+    height: 39.4vw;
+}
+
+.caption2 {
+    position: absolute;
+    z-index: 11;
+    width: 70vw;
+    height: 70vw;
+    left: 25vw;
+    top: 334vw;
+    background: black;
+}
+
+.Caption2 {
+    color: white;
+    font-size: 2.5vw;
+}
+
+.was {
+    position: absolute;
+    z-index: 11;
+    height: 5vw;
+    width: 30vw;
+    top: 472.5vw;
+    left: 20vw;
+    opacity: 0;
+    background: red;
+}
+
+
+.now {
+    position: absolute;
+    z-index: 11;
+    height: 5vw;
+    width: 14vw;
+    top: 472.5vw;
+    left: 55vw;
+    opacity: 0;
+    background: red;
+}
+
+.will {
+    position: absolute;
+    z-index: 11;
+    height: 5vw;
+    width: 23vw;
+    top: 472.5vw;
+    left: 77vw;
+    opacity: 0;
+    background: red;
+}
+
+.f1 {
+    z-index: -2;
+    position: fixed;
+    height: 100vw;
+    width: 100vw;
+    top: 6.5vw;
+    left: 22vw;
+    background: white;
+}
+
+.name {
+    font-size: 6.5vw;
+}
+
+.f2 {
+    z-index: -2;
+    position: fixed;
+    height: 30vw;
+    width: 80vw;
+    top: 152.5vw;
+    left: 20vw;
+    background: white;
+}
+
+.nav {
+    text-align: center;
+    font-size: 4.3vw;
+}
