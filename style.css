@@ -222,6 +222,17 @@
     transform: rotate(19.55deg);
 }
 
+.InBtn7 {
+    z-index: 10;
+    position: absolute;
+    height: 5vw;
+    width: 20vw;
+    background: blue;
+    opacity: 0;
+    left: -45.7vw;
+    top: 415vw;
+    transform: rotate(90deg);
+}
 
 .In {
     z-index: 1;
@@ -459,10 +470,10 @@
 
 .eyeblowKu1 {
     position: absolute;
-    height: 5vw;
+    height: 5.8vw;
     width: 19vw;
     z-index: 6;
-    left: -82vw;
+    left: -83vw;
     top: 382.7vw;
     background: black;
     transform: rotate(90deg);
@@ -471,10 +482,10 @@
 
 .eyeblowKu2 {
     position: absolute;
-    height: 5vw;
+    height: 5.8vw;
     width: 19vw;
     z-index: 6;
-    left: -87.09vw;
+    left: -88.09vw;
     bottom: -327.5vw;
     background: black;
     transform: rotate(90deg);
