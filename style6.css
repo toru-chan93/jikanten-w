@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.body {
+    height: 50vw;
+}
+
+.BG {
+    position: fixed;
+    overflow-x: hidden;
+    top:5vw;
+}
+
+.rotate {
+    transform: rotate(odeg);
+    height: 200vw;
+    top: -40vw;
+}
+
+.square1  {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 50vw;
+    left: 20vw;
+    top: -31vw;
+    background: black;
+    animation: s1Move 1800s forwards;
+}
+
+.square4  {
+    position: absolute;
+    z-index: -1;
+    width: 75vw;
+    height: 540vw;
+    left: -60vw;
+    top:-25vw ;
+    background: black;
+
+}
+
+.square3  {
+    position: absolute;
+    z-index: -1;
+    width:100vw;
+    height: 432vw;
+    top: 22vw;
+    left: 20vw;
+    background: black;
+    animation: s3Move 1800s forwards;
+}
+
+.square5  {
+    position: absolute;
+    z-index: -1;
+    width:100vw;
+    height: 53vw;
+    top: 458vw;
+    left: 20vw;
+    background: black;
+    animation: s3Move 1800s forwards;
+}
+
+.square2 {
+    position: absolute;
+    z-index: -1;
+    width: 200vw;
+    height: 500vw;
+    left: -250vw;
+    top:-25vw ;
+    background: black;
+    /animation: s2Move 1800s forwards;
+}
+
+.square6 {
+    position: absolute;
+    z-index: -1;
+    width: 200vw;
+    height: 100vw;
+    left: -250vw;
+    top: 485vw;
+    background: black;
+}
+
+.title {
+    z-index: 11;
+    height: 10vw;
+    width: 300vw;
+    top: 50.5vw;
+    left: 32.5vw;
+}
+
+.Title {
+    position: absolute;
+    z-index: 11;
+    color: black;
+    font-size: 9vw;
+    font-weight: 400;
+    left:-9vw;
+    top: 386.5vw;
+    transform: rotate(-90deg);
+}
+
+iframe {
+    position: absolute;
+    z-index: 10;
+    left: 25vw;
+    top: 30.5vw;
+}
+
+.caption {
+    position: absolute;
+    z-index: 11;
+    width: 70vw;
+    height: 70vw;
+    left: 25vw;
+    top: 27vw;
+    background: black;
+}
+
+.Caption {
+    color: white;
+    font-size: 2.5vw;
+}
+
+.img61 {
+    position: absolute;
+    z-index: 12;
+    left: 25vw;
+    top: 47vw;
+    width: 70vw;
+    height: 39.4vw;
+}
+
+.img62 {
+    position: absolute;
+    z-index: 12;
+    left: 25vw;
+    top: 92vw;
+    width: 70vw;
+    height: 39.4vw;
+}
+
+.caption1 {
+    position: absolute;
+    z-index: 11;
+    width: 70vw;
+    height: 70vw;
+    left: 25vw;
+    top: 137vw;
+    background: black;
+    color: white;
+    font-size: 2.5vw;
+}
+
+.img63 {
+    position: absolute;
+    z-index: 12;
+    left: 25vw;
+    top: 155vw;
+    width: 70vw;
+    height: 39.4vw;
+}
+
+.img64 {
+    position: absolute;
+    z-index: 12;
+    left: 25vw;
+    top: 200vw;
+    width: 70vw;
+    height: 39.4vw;
+}
+
+.caption2 {
+    position: absolute;
+    z-index: 12;
+    width: 70vw;
+    height: 70vw;
+    left: 25vw;
+    top: 245vw;
+    background: black;
+    color: white;
+    font-size: 2.5vw;
+}
+
+.img65 {
+    position: absolute;
+    z-index: 13;
+    left: 25vw;
+    top: 273vw;
+    width: 70vw;
+    height: 39.4vw;
+}
+
+.img66 {
+    position: absolute;
+    z-index: 13;
+    left: 25vw;
+    top: 318vw;
+    width: 70vw;
+    height: 39.4vw;
+}
+
+.caption3 {
+    position: absolute;
+    z-index: 12;
+    width: 70vw;
+    height: 70vw;
+    left: 25vw;
+    top: 363vw;
+    background: black;
+    color: white;
+    font-size: 2.5vw;
+}
+
+.was {
+    position: absolute;
+    z-index: 14;
+    height: 5vw;
+    width: 30vw;
+    top: 453.5vw;
+    left: 20vw;
+    opacity: 0;
+    background: red;
+}
+
+
+.now {
+    position: absolute;
+    z-index: 14;
+    height: 5vw;
+    width: 14vw;
+    top: 453.5vw;
+    left: 55vw;
+    opacity: 0;
+    background: red;
+}
+
+.will {
+    position: absolute;
+    z-index: 14;
+    height: 5vw;
+    width: 23vw;
+    top: 453.5vw;
+    left: 77vw;
+    opacity: 0;
+    background: red;
+}
+
+.f1 {
+    z-index: -2;
+    position: fixed;
+    height: 100vw;
+    width: 100vw;
+    top: 6.2vw;
+    left: 22vw;
+    background: white;
+}
+
+.name {
+    font-size: 4.5vw;
+}
+
+.f2 {
+    z-index: -2;
+    position: fixed;
+    height: 30vw;
+    width: 80vw;
+    top: 147.5vw;
+    left: 20vw;
+    background: white;
+}
+
+.nav {
+    text-align: center;
+    font-size: 4.3vw;
+}
